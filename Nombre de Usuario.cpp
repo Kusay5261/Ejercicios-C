@@ -25,6 +25,7 @@ int main() {
     // Limpiar el salto de línea '\n' que deja fgets al final si existe
     nombre[strcspn(nombre, "\n")] = 0;
 
+	//Solicito la edad del usuario
     printf("Ingrese su edad: ");
     scanf("%d", &edad);
 
